@@ -1,7 +1,7 @@
 interface AdvertisementProps {
   companyName: string;
   productDescription: string;
-  
+
   price: string;
 }
 
@@ -11,6 +11,7 @@ function Advertisement(props: AdvertisementProps) {
       <p>{props.companyName}</p>
       <p>{props.productDescription}</p>
       <p>{props.price}</p>
+      
     </div>
   )
 }

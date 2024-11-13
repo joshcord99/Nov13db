@@ -3,6 +3,7 @@ interface AdvertisementProps {
   productDescription: string;
 
   price: string;
+  
 }
 
 function Advertisement(props: AdvertisementProps) {

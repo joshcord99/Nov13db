@@ -1,6 +1,7 @@
 interface AdvertisementProps {
   companyName: string;
   productDescription: string;
+  
   price: string;
 }
 
